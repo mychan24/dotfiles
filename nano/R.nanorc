@@ -25,11 +25,11 @@
 
 
 ##
-syntax "R" "\.R$"
+syntax "R" "\.[Rr]$"
 header "^#!.*/Rscript"
 
 ## Asciibetical list of reserved words, including '...', '..1' etc.
-color brightgreen "(\<(break|else|for|function|if|in|next|repeat|return|while)\>|[.]{3,3}|[.]{2,2}[0-9]+)"
+# color brightgreen "(\<(break|else|for|function|if|in|next|repeat|return|while)\>|[.]{3,3}|[.]{2,2}[0-9]+)"
 
 ## Assignment operators (only the preferred '<-' and '<<-' ones)
 color green "(<){1,2}-"
@@ -41,7 +41,7 @@ color green "[\)\(,;]+|[\{\}]+|[][]+"
 color brightblue "\<(TRUE|FALSE|NA)\>"
 
 ## Other special constants
-color brightblue "\<(Inf|NA_character_|NA_complex_|NA_integer_|NA_real_|NaN|NULL)\>"
+# color brightblue "\<(Inf|NA_character_|NA_complex_|NA_integer_|NA_real_|NaN|NULL)\>"
 
 ## Special operators (infix operators)
 color brightcyan "%[^%]*%"
@@ -69,4 +69,3 @@ color magenta "#[^'].*$" "#$"
 
 ## Special comments (Roxygen-style)
 color cyan "#'.*$"
-@ibarraespinosa
