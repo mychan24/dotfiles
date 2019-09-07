@@ -1,3 +1,10 @@
+# cd direct<TAB> -> cd Directory
+set completion-ignore-case on
+
+# only need TAB once when ambiguous
+set show-all-if-ambiguous on
+
+# <Arrow up> trick
 "\e[A": history-search-backward
 "\e[B": history-search-forward
 set show-all-if-ambiguous on
