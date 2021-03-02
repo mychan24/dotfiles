@@ -1,5 +1,6 @@
-Unix setings and shortcuts I like to use
+Unix setings and shortcuts:
 
-* .bashrc/.bash_profile 
-* .inputrc
+* bashrc_template.sh - use for bashrc or bash_profile (mac)
+* .inputrc - history search with arrows
+* .gitconfig - git configuration (includes pretty git log)
 
